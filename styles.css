@@ -1,0 +1,78 @@
+@media screen {
+
+html {
+  border-top: 10px solid #efefef;
+}
+
+body {
+  width: 94%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #3f3f3f;
+}
+
+a:link {color: #fda444;}
+a:visited {color: #fda444;}
+a:hover,
+a:focus {color: #de7401;}
+a:active {color: #3f3f3f;}
+
+header h1 {
+  position:relative;
+  font-size: 2em;
+  text-align:center;
+}
+
+div[role=main] {
+  text-align:justify;
+}
+
+footer[role=contentinfo] {
+  border-top: 2px solid #efefef;
+  margin: 2em 0 0;
+  padding: 1em 0 0;
+  font-size: 92.5%;
+  color: #999;
+}
+
+#slab-logo {
+  display:block;
+  margin: 2em 0;
+  opacity: 0.25;
+  text-align:center;
+}
+
+#slab-logo:hover,
+#slab-logo:focus,
+#slab-logo:active {
+  opacity: 0.75;
+}
+
+}
+
+@media screen and (min-width: 500px) {
+
+html {
+  border-top-width: 20px;
+}
+
+header h1 {
+  font-size: 4em;
+}
+
+footer .attribution {
+  float:left;
+  width: 48%;
+}
+
+#slab-logo {
+  display:block;
+  float:right;
+  width: 48%;
+  margin: 1em 0;
+  text-align:right;
+  opacity: 0.25;
+}
+
+}
