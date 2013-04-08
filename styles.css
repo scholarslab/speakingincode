@@ -24,6 +24,69 @@ header h1 {
   text-align:center;
 }
 
+#site-title {
+  float:left;
+  width: 100%;
+  word-spacing: 40px;
+  margin-bottom: 80px;
+}
+
+#site-title span {
+  position:relative;
+  padding: 20px;
+  font-size: 70%;
+  color: #fff;
+  box-shadow: -5px -5px 10px rgba(0,0,0,0.075);
+}
+
+#site-title span:after {
+   content:"";
+   display:block; /* reduce the damage in FF3.0 */
+   width:0;
+   border-style:solid;
+   position:absolute;
+   bottom: -15px;
+}
+
+.word1 {
+  background-color: #f3961c;
+}
+
+.word1:after {
+   border-color:#f3961c transparent;
+   border-width:15px 0 0 15px;
+   left: 20px;
+}
+
+.word2 {
+  background-color: #b6c43f;
+  margin: 50px -10px 0;
+  font-size: 50% !important;
+  z-index: 1000;
+  padding: 10px 20px !important;
+  position:absolute !important;
+  left: 52.5%;
+  top: 0;
+}
+
+.word2:after {
+   border-color:#b6c43f transparent;
+   border-width:15px 15px 0 0;
+   right: 10px;
+}
+
+.word3 {
+  background-color: #f7e907;
+  margin-top: 10px;
+}
+
+.word3:after {
+   border-color:#f7e907 transparent;
+   border-width:15px 15px 0 0;
+   right: 20px;
+}
+
+
 div[role=main] {
   text-align:justify;
 }
