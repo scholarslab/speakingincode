@@ -4,7 +4,14 @@
 @media screen {
 
 html {
-  border-top: 10px solid #efefef;
+
+  @include background(
+    linear-gradient(top left, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('bg.jpg')
+    );
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
 }
 
 body {
@@ -100,8 +107,7 @@ ul {
 
 header h1 {
   position:relative;
-  font-size: 2em;
-  text-align:center;
+  font-size: 4em;
 }
 
 #site-title {
@@ -112,8 +118,8 @@ header h1 {
 
   span {
     position:relative;
-    padding: 20px;
-    font-size: 70%;
+    padding: 40px;
+    font-size: 120%;
     color: #fff;
     box-shadow: -5px -5px 10px rgba(0,0,0,0.075);
 
@@ -130,20 +136,23 @@ header h1 {
 
 .word1 {
   background-color: #f3961c;
+  float:left;
+  display:block;
 }
 
 .word1:after {
    border-color:#f3961c transparent;
-   border-width:15px 0 0 15px;
-   left: 20px;
+   border-width:30px 0 0 30px;
+   left: 30px;
+   bottom:30px;
 }
 
 .word2 {
   background-color: #b6c43f;
-  margin: 50px -10px 0;
-  font-size: 50% !important;
+  margin: 120px 0px 0;
+  font-size: 70% !important;
   z-index: 1000;
-  padding: 10px 20px !important;
+  padding: 10px 30px !important;
   position:absolute !important;
   left: 52.5%;
   top: 0;
@@ -158,12 +167,15 @@ header h1 {
 .word3 {
   background-color: #f7e907;
   margin-top: 10px;
+  float:right;
+  display:block;
 }
 
 .word3:after {
    border-color:#f7e907 transparent;
-   border-width:15px 15px 0 0;
-   right: 20px;
+   border-width:30px 30px 0 0;
+   right: 30px;
+   bottom:30px;
 }
 
 
@@ -172,10 +184,27 @@ div[role=main] {
 }
 
 section {
-  padding-top: 60px;
+  position:relative;
+  padding: 60px;
+  background: #fff;
+  clear:both;
+  margin: 100px 0;
+
+  &:after {
+    border-color:#fff transparent;
+    border-width:30px 30px 0 0;
+    right: 20px;
+    content:"";
+    display:block; /* reduce the damage in FF3.0 */
+    width:0;
+    border-style:solid;
+    position:absolute;
+    bottom: -30px;
+  }
 
   h1 {
     font-size: 2em;
+    margin-top:0;
   }
 
   &#introduction h1 {
@@ -184,11 +213,25 @@ section {
 }
 
 footer[role=contentinfo] {
-  border-top: 2px solid #efefef;
-  margin: 2em 0 0;
-  padding: 1em 0 0;
-  font-size: 92.5%;
-  color: #999;
+  @include clearfix;
+  position:relative;
+  padding: 60px;
+  background: #fff;
+  clear:both;
+  margin: 100px 0;
+
+  &:after {
+    border-color:#fff transparent;
+    border-width:30px 30px 0 0;
+    right: 20px;
+    content:"";
+    display:block; /* reduce the damage in FF3.0 */
+    width:0;
+    border-style:solid;
+    position:absolute;
+    bottom: -30px;
+  }
+
 }
 
 #slab-logo {
