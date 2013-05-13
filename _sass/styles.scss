@@ -52,7 +52,7 @@ textarea {
   max-width:100%;
   margin-bottom: 0.5em;
   &:focus {
-    border: 1px solid #de7401;
+    border: 1px solid #b6c43f;
   }
 
   #cfp-form & {
@@ -66,6 +66,25 @@ input {
     @extend textarea;
   }
 
+  &[type=submit] {
+    background: darken(#b6c43f, 5%);
+    border: 1px solid darken(#b6c43f, 8%);
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 85%;
+    padding: 6px;
+    @include border-radius(3px);
+
+    &:hover,
+    &:focus {
+      background: #b6c43f;
+    }
+
+    &:active {
+      background: lighten(#b6c43f, 5%);
+    }
+  }
+
   #cfp-form & {
     &[type=submit] {
       margin-left: 33%;
@@ -74,6 +93,8 @@ input {
 }
 
 label {
+  color: #999 !important;
+
   #cfp-form & {
     float:left;
     text-align:right;
