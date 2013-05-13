@@ -1,0 +1,10 @@
+# standard jekyll configuration
+
+permalink: /:year/:month/:day/:title/
+pygments:  true
+markdown: rdiscount
+exclude: ['readme.md', 'Rakefile', 'config.rb', '.gitignore', '.sass-cache', 'Gemfile', 'Gemfile.lock']
+include: ['.htaccess']
+
+title: Speaking in Code
+domain: http://localhost
