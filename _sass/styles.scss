@@ -104,6 +104,41 @@ label {
   }
 }
 
+table {
+  border: 3px solid #ddd;
+  border-width: 3px 0;
+  margin-bottom: 3em;
+
+  th {
+    color: #b6c43f;
+  }
+
+  th, td {
+    padding: 10px 0;
+  }
+
+  thead tr {
+    border-bottom: 1px dotted #ccc;
+  }
+
+  tbody tr + tr {
+    border-top: 1px dotted #ccc;
+  }
+
+  &.schedule {
+
+    td {
+      h3 {
+        margin-top:0;
+      }
+
+      &:first-child {
+        width: 20%;
+      }
+    }
+  }
+}
+
 ul {
   &.people {
     list-style:none;
@@ -141,11 +176,46 @@ ul {
   }
 }
 
-header h1 {
+header {
+  padding-top: 2em;
   position:relative;
-  font-size: 4em;
-}
 
+  h1 {
+    position:relative;
+    font-size: 4em;
+  }
+
+  nav {
+    position:fixed;
+    max-width: 800px;
+    z-index:2000;
+    top:0;
+    background: rgba(0,0,0,0.5);
+    width:100%;
+
+    a {
+      display:block;
+      float:left;
+      padding: 10px;
+      text-decoration:none;
+      border: 1px solid rgba(255,255,255,0.2);
+      border-width: 0 1px 0 0;
+
+      &:link,
+      &:visited {
+        color: #bbb;
+        background: rgba(0,0,0,0.5);
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: #eee;
+        background: rgb(0,0,0);
+      }
+
+    }
+  }
+}
 #site-title {
   float:left;
   width: 100%;
