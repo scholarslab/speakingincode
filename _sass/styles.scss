@@ -3,6 +3,17 @@
 @import "mixins";
 @import "normalize";
 
+@font-face {
+  font-family: 'socialicons';
+  src: url('//static.scholarslab.org/fonts/socialicons/socialicons.eot');
+  src: url('//static.scholarslab.org/fonts/socialicons/socialicons.eot?#iefix') format('embedded-opentype'),
+       url('//static.scholarslab.org/fonts/socialicons/socialicons.woff') format('woff'),
+       url('//static.scholarslab.org/fonts/socialicons/socialicons.ttf') format('truetype'),
+       url('//static.scholarslab.org/fonts/socialicons/socialicons.svg#socialicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @media screen {
 
 html {
@@ -344,6 +355,124 @@ footer[role=contentinfo] {
   }
 }
 
+// Footers
+footer[role=contentinfo] {
+  @include clearfix;
+  background-color: #555;
+  background-color: rgba(black, 0.75);
+  color: #eee;
+  color: rgba(255,255,255,0.75);
+  text-align:center;
+  padding-top: rhythm(1,14px);
+  .elsewhere {
+    list-style:none;
+    text-align:center;
+
+    li {
+      display:inline;
+    }
+  }
+
+  a {
+    @include link-colors(#eee,#eee, #fff, #fff, #fff);
+    @include link-colors(rgba(255,255,255,0.75));
+    text-decoration:none;
+    &:link,
+    &:visited {
+      &:before {
+        color: #ddd;
+        color: rgba(white, 0.5);
+      }
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      &:before {
+        color: #f0f0f0;
+        color: rgba(white, 0.75);
+      }
+    }
+  }
+
+  .vcard {
+    span {
+      display:inline-block;
+    }
+    .org {
+      display:none;
+    }
+
+    .organization-name,
+    .organization-unit,
+    .postal-code,
+    abbr[title=work] {
+      &:after {
+        content: " ·";
+        color: rgba(white, 0.25);
+        text-decoration:none !important;
+      }
+    }
+
+    abbr {
+      border:none;
+      &.type {
+        color: rgba(white, 0.5);
+      }
+    }
+  }
+
+  .vcard,.elsewhere {
+    @include adjust-font-size-to(14px);
+    @include adjust-leading-to(0.75, 14px);
+  }
+}
+
+.attribution {
+  @include adjust-font-size-to(24px);
+  @include adjust-leading-to(1.5, 24px);
+  @include trailer(3,24px);
+}
+
+.elsewhere {
+  margin-left:0;
+  padding-left:0;
+}
+
+.elsewhere a {
+  @include squish-text();
+  vertical-align:sub !important;
+}
+
+.elsewhere a:before {
+  font-size: 54px !important;
+  line-height: 54px;
+  font-family: 'socialicons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(black,0.25);
+}
+
+.google:before {
+  content: "\2b";
+}
+.github:before {
+  content: "\67";
+}
+.twitter:before {
+  content: "\74";
+}
+.facebook:before {
+  content: "\66";
+}
+.vimeo:before {
+  content: "\76";
+}
+
 }
 
 @media screen and (min-width: 500px) {
@@ -354,20 +483,6 @@ html {
 
 header h1 {
   font-size: 4em;
-}
-
-footer .attribution {
-  float:left;
-  width: 48%;
-}
-
-#slab-logo {
-  display:block;
-  float:right;
-  width: 48%;
-  margin: 1em 0;
-  text-align:right;
-  opacity: 0.25;
 }
 
 }
