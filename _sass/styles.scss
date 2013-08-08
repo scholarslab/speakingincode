@@ -188,7 +188,7 @@ ul {
 }
 
 header {
-  padding-top: 2em;
+  padding-top: rhythm(3);
   position:relative;
 
   h1 {
@@ -198,30 +198,35 @@ header {
 
   nav {
     position:fixed;
+    display:block;
     max-width: 800px;
     z-index:2000;
     top:0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.75);
     width:100%;
+    text-align:justify;
+    padding: rhythm(1) rhythm(1) 0;
+    &:after {
+      content: '';
+      display: inline-block;
+      width:100%;
+      margin:0;
+    }
 
     a {
-      display:block;
-      float:left;
-      padding: 10px;
+      display:inline-block;
       text-decoration:none;
-      border: 1px solid rgba(255,255,255,0.2);
-      border-width: 0 1px 0 0;
 
       &:link,
       &:visited {
-        color: #bbb;
-        background: rgba(0,0,0,0.5);
+        color: #f7e907;
+        color: rgba(lighten(#f7e907, 20%), 0.85);
       }
       &:hover,
       &:focus,
       &:active {
         color: #eee;
-        background: rgb(0,0,0);
+        color: rgba(white, 0.9);
       }
 
     }
