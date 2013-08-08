@@ -88,7 +88,7 @@ textarea {
   }
 
   #cfp-form & {
-    width: 48%;
+    width:50%;
   }
 
 }
@@ -126,15 +126,26 @@ input {
 
 label {
   color: #999 !important;
-
+  word-wrap: break-word;
   #cfp-form & {
     float:left;
     text-align:right;
     width: 28%;
     margin-right: 5%;
+    clear:left;
+    margin-bottom: rhythm(1);
   }
 }
 
+form br {
+  display:block;
+  height: rhythm(1);
+  margin-top: rhythm(1);
+  width: 100%;
+  content: '';
+  border-top: 1px dotted #ccc;
+  clear:both;
+}
 table {
   border: 3px solid #ddd;
   border-width: 3px 0;
@@ -224,17 +235,26 @@ header {
     top:0;
     background: rgba(0,0,0,0.75);
     width:100%;
-    text-align:justify;
-    padding: rhythm(1) rhythm(1) 0;
-    &:after {
-      content: '';
-      display: inline-block;
-      width:100%;
-      margin:0;
-    }
+    padding: rhythm(1);
 
+    @media (min-width: 500px) {
+    text-align:justify;
+    padding-bottom:0;
+      &:after {
+        content: '';
+        display: inline-block;
+        width:100%;
+        margin:0;
+      }
+
+      a {
+        display:inline-block;
+        &:before {
+          content:'' !important;
+        }
+      }
+    }
     a {
-      display:inline-block;
       text-decoration:none;
 
       &:link,
@@ -248,7 +268,11 @@ header {
         color: #eee;
         color: rgba(white, 0.9);
       }
-
+      
+      & + a:before {
+        content: "· ";
+        color: #777;
+      }
     }
   }
 }
@@ -327,10 +351,10 @@ div[role=main] {
 
 section {
   position:relative;
-  padding: 60px;
+  padding: 20px;
   background: #fff;
   clear:both;
-  margin: 100px 0;
+  margin: 40px 0;
 
   &:after {
     border-color:#fff transparent;
@@ -369,7 +393,7 @@ footer[role=contentinfo] {
   color: rgba(255,255,255,0.75);
   text-align:center;
   position:relative;
-  padding: rhythm(1) 60px;
+  padding: rhythm(1);
   margin: 100px 0 0;
 
   .elsewhere {
@@ -485,12 +509,12 @@ footer[role=contentinfo] {
 
 @media screen and (min-width: 500px) {
 
-html {
-  border-top-width: 20px;
+section,
+footer[role] {
+  padding: 60px;
 }
 
-header h1 {
-  font-size: 4em;
+section {
+  margin:100px 0;
 }
-
 }
