@@ -28,7 +28,7 @@
     <header role="banner">
       <h1 id="site-title"><a href="/">Speaking in Code</a></h1>
         <nav>
-            <a href="#">About the Summit</a>
+            <a href="#introduction">About the Summit</a>
             <a href="#participants">Participants</a>
             <a href="#agenda">Daily Agenda</a>
 			<a href="#logistics">Logistics</a>
@@ -80,6 +80,18 @@
           .html($(this).html())
           .bPopup();
         }).css({'cursor' : 'pointer'});
+
+        $("nav a[href*=#]").click(function () {
+          var hash = this.hash;
+          this.blur();
+          $("html,body").animate({
+              scrollTop: $(this.hash).offset().top - $('header nav').outerHeight()
+          }, 800, function () {
+              location.hash = hash;
+          });
+
+          return false;
+        });
     });
   </script>
 </body>

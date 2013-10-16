@@ -299,7 +299,7 @@ header {
   }
 
   nav {
-    position:fixed;
+    position:absolute;
     display:block;
     max-width: 800px;
     z-index:2000;
@@ -309,6 +309,10 @@ header {
     padding: rhythm(1);
 
     @media (min-width: 500px) {
+      .js & {
+        position:fixed;
+      }
+
     text-align:justify;
     padding-bottom:0;
       &:after {
