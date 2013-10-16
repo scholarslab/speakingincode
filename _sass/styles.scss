@@ -182,42 +182,96 @@ table {
 }
 
 ul {
-  &.people {
+  &.participants {
     list-style:none;
     padding-left:0;
     @include clearfix;
 
-    li {
-      @include span-columns(4);
-      margin-bottom: 2em;
-
-      &:nth-child(3n) {
-        @include span-columns(4 omega);
-      }
+    & > li {
+      border-top: 1px dotted #ccc;
+      padding-top: 1em;
     }
 
     h2 {
       color: #b6c43f !important;
       margin:0;
+      font-weight:normal;
     }
 
-    .byline {
+    .byline,
+    .twitter-handle {
       color: #999;
       font-size: 90%;
-      margin-top:0;
+      margin:0;
+
+      a {
+        text-decoration:none;
+      }
     }
 
-    .image {
-      width: 50px;
-      height: 50px;
-      background: #eee;
-      border: 1px dotted #ccc;
-      float:left;
-      margin-right: 10px;
+    img {
+      width: 60px;
+      height: 60px;
+      @include border-radius(30px);
+      float:right;
+      margin-left: 1em;
+    }
+
+    .js & {
+      & > li {
+        border:0;
+        padding:0;
+        display:inline-block;
+        width: 30%;
+        text-align:center;
+        margin-bottom: 2em;
+      }
+
+      img {
+        display:block;
+        float:none;
+        margin: 0 auto;
+      }
+
+      h2 {
+        font-size: 1em;
+      }
+
+      .byline,
+      .twitter-handle,
+      .bio {
+        display:none;
+      }
     }
   }
 }
 
+#popup {
+    h2 {
+      color: #b6c43f !important;
+      margin:0;
+      font-weight:normal;
+    }
+
+    .byline,
+    .twitter-handle {
+      color: #999;
+      font-size: 90%;
+      margin:0;
+
+      a {
+        text-decoration:none;
+      }
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      @include border-radius(30px);
+      float:right;
+      margin-left: 1em;
+    }
+  }
 header {
   padding-top: rhythm(3);
   position:relative;
