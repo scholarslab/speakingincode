@@ -210,9 +210,9 @@ ul {
     }
 
     img {
-      width: 60px;
-      height: 60px;
-      @include border-radius(30px);
+      width: 80px;
+      height: 80px;
+      @include border-radius(40px);
       float:right;
       margin-left: 1em;
     }
@@ -225,12 +225,19 @@ ul {
         width: 30%;
         text-align:center;
         margin-bottom: 2em;
+
+        &:hover {
+          img {
+            opacity: 1;
+          }
+        }
       }
 
       img {
         display:block;
         float:none;
         margin: 0 auto;
+        opacity: .8;
       }
 
       h2 {
