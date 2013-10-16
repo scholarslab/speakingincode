@@ -35,6 +35,9 @@ body {
   color: #444;
 }
 
+::-moz-selection { background: #f7e907; color: #333; }
+::selection { background: #f7e907; color: #333; }
+
 h1,h2 {
   color: #b6c43f;
 }
