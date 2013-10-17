@@ -70,29 +70,6 @@
   <script>window.jQuery || document.write('<script src="/j/jquery.min.js"><\/script>')</script>
   <script src="/j/jquery.lettering.min.js"></script>
   <script src="/j/jquery.bpopup.min.js"></script>
-  <script type="text/javascript" charset="utf-8">
-    $(document).ready(function() {
-        $("#site-title a").lettering('words');
-
-        $(".participants > li").on('click', function(i) {
-          var popup = $('<div id="popup" />');
-          popup.appendTo('body')
-          .html($(this).html())
-          .bPopup();
-        }).css({'cursor' : 'pointer'});
-
-        $("nav a[href*=#]").click(function () {
-          var hash = this.hash;
-          this.blur();
-          $("html,body").animate({
-              scrollTop: $(this.hash).offset().top - $('header nav').outerHeight()
-          }, 800, function () {
-              location.hash = hash;
-          });
-
-          return false;
-        });
-    });
-  </script>
+  <script src="/j/scripts.js"></script>
 </body>
 </html>
