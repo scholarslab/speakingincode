@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  var headerNavHeight = $('header nav').outerHeight();
+
   var siteTitle = $("#site-title a");
   siteTitle.html(siteTitle.text().replace(/\S+/g, function(word) { return "<b>" + word + "</b>"}));
 
