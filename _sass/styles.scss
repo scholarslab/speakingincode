@@ -351,13 +351,14 @@ header {
     }
   }
 }
+
 #site-title {
   float:left;
   width: 100%;
   word-spacing: 40px;
   margin-bottom: 80px;
 
-  span {
+  b {
     position:relative;
     padding: 40px;
     font-size: 120%;
@@ -373,52 +374,50 @@ header {
       bottom: -15px;
     }
   }
-}
 
-.word1 {
-  background-color: #f3961c;
-  float:left;
-  display:block;
-}
+  b:nth-child(1) {
+    background-color: #f3961c;
+    float:left;
+    display:block;
 
-.word1:after {
-   border-color:#f3961c transparent;
-   border-width:30px 0 0 30px;
-   left: 30px;
-   bottom:30px;
-}
+    &:after {
+       border-color:#f3961c transparent;
+       border-width:30px 0 0 30px;
+       left: 30px;
+       bottom:30px;
+    }
+  }
 
-.word2 {
-  background-color: #b6c43f;
-  margin: 150px 0px 0;
-  font-size: 70% !important;
-  z-index: 1000;
-  padding: 10px 30px !important;
-  position:absolute !important;
-  left: 52.5%;
-  top: 0;
-}
+  b:nth-child(2) {
+    background-color: #b6c43f;
+    margin: 150px 0px 0;
+    font-size: 70% !important;
+    z-index: 1000;
+    padding: 10px 30px !important;
+    position:absolute !important;
+    left: 52.5%;
+    top: 0;
 
-.word2:after {
-   border-color:#b6c43f transparent;
-   border-width:15px 15px 0 0;
-   right: 10px;
-}
+    &:after {
+       border-color:#b6c43f transparent;
+       border-width:15px 15px 0 0;
+       right: 10px;
+    }
+  }
 
-.word3 {
-  background-color: #f7e907;
-  margin-top: 10px;
-  float:right;
-  display:block;
+  b:nth-child(3) {
+    background-color: #f7e907;
+    margin-top: 10px;
+    float:right;
+    display:block;
+    &:after {
+       border-color:#f7e907 transparent;
+       border-width:30px 30px 0 0;
+       right: 30px;
+       bottom:30px;
+    }
+  }
 }
-
-.word3:after {
-   border-color:#f7e907 transparent;
-   border-width:30px 30px 0 0;
-   right: 30px;
-   bottom:30px;
-}
-
 
 div[role=main] {
   text-align:justify;
@@ -429,7 +428,6 @@ section {
   background: #fff;
   clear:both;
   margin: 40px 0;
-
   &:after {
     border-color:#fff transparent;
     border-width:30px 30px 0 0;

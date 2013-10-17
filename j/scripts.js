@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-  $("#site-title a").lettering('words');
+  var siteTitle = $("#site-title a");
+  siteTitle.html(siteTitle.text().replace(/\S+/g, function(word) { return "<b>" + word + "</b>"}));
 
   $(".participants > li").on('click', function(i) {
     var popup = $('<div id="popup" />');
