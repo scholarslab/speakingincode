@@ -126,23 +126,29 @@ layout: default
                 <h2>Stefan Sinclair</h2>
                 <p class="byline">Prof. of DH, McGill University</p>
                 <p class="twitter-handle"><a href="http://twitter.com/sgsinclair">@sgsinclair</a></p>
-                <p class="bio"><code>&lt;script type="text/javascript" charset="utf-8"&gt;
-// license: artistic
-(function bio(code, haveTime) {
-for(speaking in code) {
-console.info([speaking,code[speaking]].join(": "))
-}
-do{haveTime? "code": "voyant"
-self.status="happy"} /* especially */
-while("summer"===true &amp;&amp; "inbox" &lt; 1000);
-})({
-name: "Stéfan Sinclair",
-position: "Prof. of DH",
-affiliation: "McGill University",
-website: "http://stefansinclair.name/",
-interests: "text analysis &amp; visualization"
-})
-&lt;/script&gt;</code>
+                <p class="bio">
+                {% highlight html %}
+<script type="text/javascript" charset="utf-8">
+
+/* license: artistic */
+(function bio(code, iHaveTime) {
+  for(speaking in code) {
+    console.info(speaking+": "+code[speaking])
+  }
+  do {iHaveTime? code : "voyant";
+    self.status="happy"} /* especially */
+    while("summer"==true && "inbox" < 1000);
+  })({
+    name: "Stéfan Sinclair",
+    position: "Prof. of DH",
+    affiliation: "McGill University",
+    website: "http://stefansinclair.name/",
+    interests: "text analysis & visualization"
+  }) "text analysis &amp; visualization"
+});
+
+</script>
+                {% endhighlight %}
 </p></li>
             <li id="james-smith">
                 <img src="/images/james-smith.jpg">

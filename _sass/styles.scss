@@ -2,6 +2,7 @@
 @import "susy";
 @import "mixins";
 @import "normalize";
+@import "pygments";
 
 @font-face {
   font-family: 'socialicons';
@@ -153,6 +154,11 @@ form br {
   border-top: 1px dotted #ccc;
   clear:both;
 }
+
+pre {
+    @include adjust-font-size-to(14px);
+}
+
 table {
   border: 3px solid #ddd;
   border-width: 3px 0;
