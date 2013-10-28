@@ -22,7 +22,12 @@
     {% endfor %}
 
     <script src="/j/modernizr.min.js"></script>
-
+    <script>
+     yepnope({
+        test : Modernizr.mq('(only all)'),
+        nope : ['/j/respond.min.js']
+    });
+    </script>
 </head>
 <body>
     <header role="banner">
