@@ -12,3 +12,4 @@ layout: post
 * [Nick Laicona](nick-laicona.html)
 * [Loren Scherbak](loren-scherbak.html)
 * [Bill Turkel](bill-turkel.html)
+* [Amanda Visconti](amanda-visconti.html)
