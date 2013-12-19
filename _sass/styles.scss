@@ -429,6 +429,17 @@ div[role=main] {
   text-align:justify;
 }
 
+article {
+    background: #fff;
+    padding: 30px;
+    clear:both;
+
+    header {
+        display:none;
+        padding:0;
+    }
+}
+
 section {
   position:relative;
   background: #fff;
