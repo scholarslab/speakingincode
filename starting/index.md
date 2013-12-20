@@ -9,7 +9,7 @@ layout: post
 * [Wanda Eugene](wanda-eugene.html)
 * [Fred Gibbs](fred-gibbs.html)
 * [Connie Harper](connie-harper.html)
-* [Nick Laicona](nick-laicona.html)
+* [Nick Laiacona](nick-laiacona.html)
 * [Loren Scherbak](loren-scherbak.html)
 * [Bill Turkel](bill-turkel.html)
 * [Amanda Visconti](amanda-visconti.html)

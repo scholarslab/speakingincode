@@ -2,7 +2,7 @@
 layout: post
 ---
 
-# Nick Laicona
+# Nick Laiacona
 
 My first career was in the computer game industry as a programmer, producer, and then designer. After working in the game business for a decade, I needed a break. At first I thought I'd take a stab at indy game development. I was inspired by the scene at the time -- the nascent roots of the modern indy game movement. I wanted to be a part of that. I quit my industry job and started making my first indy game. That was when I got distracted by this field called "digital humanities."
 
