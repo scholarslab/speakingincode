@@ -10,6 +10,7 @@ layout: post
 * [Fred Gibbs](fred-gibbs.html)
 * [Connie Harper](connie-harper.html)
 * [Nick Laiacona](nick-laiacona.html)
+* [Bethany Nowviskie](bethany-nowviskie.html)
 * [Loren Scherbak](loren-scherbak.html)
 * [Bill Turkel](bill-turkel.html)
 * [Amanda Visconti](amanda-visconti.html)
