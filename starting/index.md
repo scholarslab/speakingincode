@@ -11,6 +11,7 @@ layout: post
 * [Connie Harper](connie-harper.html)
 * [Nick Laiacona](nick-laiacona.html)
 * [Bethany Nowviskie](bethany-nowviskie.html)
+* [Eric Rochester](eric-rochester.html)
 * [Loren Scherbak](loren-scherbak.html)
 * [Bill Turkel](bill-turkel.html)
 * [Amanda Visconti](amanda-visconti.html)
