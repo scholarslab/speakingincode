@@ -10,6 +10,7 @@ layout: post
 * [Fred Gibbs](fred-gibbs.html)
 * [Connie Harper](connie-harper.html)
 * [Nick Laiacona](nick-laiacona.html)
+* [John Laudun](john-laudun.html)
 * [Bethany Nowviskie](bethany-nowviskie.html)
 * [Eric Rochester](eric-rochester.html)
 * [Loren Scherbak](loren-scherbak.html)
