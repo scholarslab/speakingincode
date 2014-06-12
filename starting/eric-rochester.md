@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Eric Rochester
 ---
-
-# Eric Rochester
 
 I started where I was, with what I had.
 

@@ -1,9 +1,6 @@
 ---
 layout: post
-title: "How I Got Started as a Digital Humanist"
-date: 2013-12-02 10:23
-categories: 
-- DH
+title: Lincoln Mullen
 ---
 
 *[In November I had the privilege of attending the [Speaking in Code][]

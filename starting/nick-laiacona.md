@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Nick Laiacona
 ---
 
 # Nick Laiacona

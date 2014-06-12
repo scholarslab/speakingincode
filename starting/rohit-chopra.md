@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Rohit Chopra
 ---
-
-# Rohit Chopra
 
 I was introduced to the world of MS-DOS, BASIC, and Pascal as a high-school science student in India. I don’t remember too many of the specifics of the high school computer science curriculum, but what has stayed with me is a sense of the elegance of Pascal as a programming language. It seemed to me then, as it does now, that programming is an aesthetic as much as a logical and intellectual activity and that code, correspondingly, can be viewed as a form of expression combining beauty and functionality. After high school, I strayed away from programming, not so much by choice as by circumstance. I opted to purse a degree in the humanities. The Indian educational structure places different kinds of disciplinary learning in silos; as such, there was no place in that structure for me to follow up on my interest in programming.
 Close to a decade later, I returned to writing code, when I joined an Internet start-up, rediff.com, in Bombay. I picked up HTML by tinkering around, by trial and error, and by looking at code written by others. My job, strictly, was to conceptualize corporate websites as well as in-house channels on education, health, finance, and develop content for them. However, because of the small workforce and startup-like culture at the firm, one pretty much wound up having to do some of everything: liaising with clients, basic coding, and pitching in at marketing meetings. The source of my motivation to take up HTML was mundane. It was tedious to have to keep asking the programmers to make minor to moderate changes on the sites on which one was working. It just made sense to learn how to code in it.

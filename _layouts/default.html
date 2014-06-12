@@ -16,10 +16,13 @@
 
     <!-- Style Sheets -->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/styles.css" type="text/css">
+    {% if page.css %}
     {% for css in page.css %}
     <link rel="stylesheet" href="{{ css }}" type="text/css">
     {% endfor %}
+    {% else %}
+    <link rel="stylesheet" href="/styles.css" type="text/css">
+    {% endif %}
 
     <script src="/j/modernizr.min.js"></script>
     <script>
@@ -33,11 +36,12 @@
     <header role="banner">
       <h1 id="site-title"><a href="/">Speaking in Code</a></h1>
         <nav>
-            <a href="#introduction">About the Summit</a>
-            <a href="#participants">Participants</a>
-            <a href="#agenda">Daily Agenda</a>
-			<a href="#logistics">Logistics</a>
-            <a href="#inclusivity">You Are Welcome Here</a>
+            <a href="{{ site.baseurl }}#introduction">About the Summit</a>
+            <a href="{{ site.baseurl }}#participants">Participants</a>
+            <a href="{{ site.baseurl }}#agenda">Daily Agenda</a>
+			<a href="{{ site.baseurl }}#logistics">Logistics</a>
+            <a href="{{ site.baseurl }}#inclusivity">You Are Welcome Here</a>
+            <a href="{{ site.baseurl }}starting/">Starting</a>
         </nav>
     </header>
     <div role="main">

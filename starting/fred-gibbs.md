@@ -1,8 +1,9 @@
 ---
 layout: post
+title: Fred Gibbs
 ---
 
-# Fred - How Did I Not Quit?
+## How Did I Not Quit?
 
 Eventually I learned to use to-do lists properly, having figured out that I was much more productive and much less anxious when I used item-level tasks like "add footnote to paragraph 3 on page 24" than "finish book chapter." It's all too easy to focus on the ever-looming project deadline rather than the micro-steps that must be taken along the way. Yet I never find these non-technical tasks overtly frustrating, even when they are. It's simply part of the challenge of a larger project. I never doubt that I can do them, even when I do my best to procrastinate doing them. 
 

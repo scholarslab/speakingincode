@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Matthew Christy
 ---
-
-# Matthew Christy
 
 The short answer(perhaps disappointingly) is that it depends on you. Everyone, of course, learns new things in their own way. I’m sure that by now you know what method works best for you. Just because you’re dealing with a potentially new field doesn’t mean you should ignore what you already know. 
 

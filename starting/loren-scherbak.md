@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: post
+title: Loren Scherbak
 ---
 
-# Loren Scherbak
-@claymaven
 I have worked in libraries and archives for more than 30 years. I am an artist, librarian, application developer and programmer, database creator and administrator, and project manager. I strive to build non-invasive, and durable, workflow applications that support the collection of metadata that can ultimately be used to illuminate all that we know about the materials we hold. I feel that my artistic insights and analytical talents are revealed when I participate in the creation of truly transformational online experiences.
 ## How did I start? Why did I not quit?
 I came to the work that I do out of passionate desires to dream, design, build, and analyze tools that contribute to my search for knowledge. I became a librarian by accident. The law firm, where I worked as a file clerk, purchased Lexis/Nexis for the whole office. Now everyone could do their own searching. In the partners’ minds, the professional law librarian was no longer needed. The lawyers asked me to manage the library as I had the file room. However, I realized quickly that I couldn’t replace the experienced law librarian in searching for information. My searching of Lexis/Nexis wouldn’t give me the results the professional librarian could produce. She had a tacit knowledge that enabled her to analyze the result set, and she knew of the huge set of information that wasn’t represented in that database. I was scared by others’ assumptions that all information could be accessed using this singular tool. 

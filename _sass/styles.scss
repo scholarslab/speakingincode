@@ -429,17 +429,6 @@ div[role=main] {
   text-align:justify;
 }
 
-article {
-    background: #fff;
-    padding: 30px;
-    clear:both;
-
-    header {
-        display:none;
-        padding:0;
-    }
-}
-
 section {
   position:relative;
   background: #fff;
@@ -463,7 +452,7 @@ section {
     left: 30px;
   }
 
-  h1 {
+  & > h1 {
     font-size: 2em;
     line-height:0;
     background: #b6c43f;
@@ -610,10 +599,21 @@ footer[role] {
 
 section {
   margin:100px 0;
-  h1 {
+  & > h1 {
     font-size: 3em;
     margin: -60px -60px 60px;
     padding: 60px;
   }
 }
+
+.local {
+    float:left;
+    display:block;
+    width: 25%;
+}
+
+article {
+    margin-left: 30%;
+}
+
 }

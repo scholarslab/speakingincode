@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Bethany Nowviskie
 ---
-
-#Bethany Nowviskie
 
 ##You Know More Than You Can Comfortably Say
 

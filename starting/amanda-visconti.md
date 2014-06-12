@@ -1,11 +1,7 @@
 ---
 layout: post
-author: Amanda Visconti
-title: How did you get started; how did you keep going?
+title: Amanda Visconti 
 ---
-
-How did you get started; how did you keep going?
-Amanda Visconti
 
 My M.O. for learning DH dev is: be struck with an idea for some digital object I absolutely need to see exist in the world (according to my own nerdy evaluation of the best of all possible worlds)--and then break the project down into the skills I'd need to learn to make the dream real. I don't have a great general answer to how a person gets started in DH dev*, because it all depends on _why_ you want to learn: ask yourself what you want to see exist, and work backwards**.
 

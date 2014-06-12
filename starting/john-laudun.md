@@ -1,8 +1,7 @@
 ---
 layout: post
+title: John Laudun
 ---
-
-# John Laudun
 
 Your honor, I would like, at the very start of this, to note that I did not
 know that overflowing the stack would kill the snake inside my computer. It
