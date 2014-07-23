@@ -21,7 +21,7 @@ and find relationships in the data.  It's a tool to help expand their research
 to larger data sets, or to store and organize larger amounts of data.  Software
 can help display results and summarize conclusions of research in meaningful
 ways, and also allow more people access to those results.  One of the best
-things about being a programmer is trying to put your self in someone else’s
+things about being a programmer is trying to put yourself in someone else’s
 shoes and use the software as they would.  This is especially difficult when
 your users are not necessarily computer literate.  But it’s challenging and
 rewarding, and if it’s not working – I’ll fix it.

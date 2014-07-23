@@ -3,7 +3,7 @@ layout: post
 title: Bethany Nowviskie
 ---
 
-##You Know More Than You Can Comfortably Say
+**You Know More Than You Can Comfortably Say**
 
 And that's okay -- but it probably makes you less generous than you'd like to
 be. 

@@ -17,9 +17,9 @@ things working properly I had to copy and paste a lot of PHP. I
 understood very little of what I was doing, but gradually I was able to
 decipher such cryptic utterances as the [WordPress loop][]:
 
-```php
+{% highlight php %}
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
-```
+{% endhighlight %}
 
 By playing around I learned a few things about PHP and got a vague idea
 of how web servers and programs built on top of them worked. More

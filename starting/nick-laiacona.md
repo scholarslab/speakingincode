@@ -29,10 +29,11 @@ of DH for a couple of years before I was tapped once again to help NINES bring
 Collex out of beta. Around this time, I met many of the scholars who would
 become my first clients. 
 
-Today, I'm still pretty involved in the Digital Humanities. My firm, Performant
-Software Solutions, builds websites and applications that help forward the
-production of on scholarly editions, crowdsource and OCR 18th century text, and
-compare poetry and prose. To me, digital humanities feels a lot like the early
-days of the game industry, wide open and full of possibilities. This is a
-moment where culture crystalizes and I'm glad to see a conscious effort to make
-that culture and open and inclusive one.
+Today, I'm still pretty involved in the Digital Humanities. My firm,
+[Performant Software Solutions](http://www.performantsoftware.com/), builds
+websites and applications that help forward the production of on scholarly
+editions, crowdsource and OCR 18th century text, and compare poetry and prose.
+To me, digital humanities feels a lot like the early days of the game industry,
+wide open and full of possibilities. This is a moment where culture crystalizes
+and I'm glad to see a conscious effort to make that culture and open and
+inclusive one.

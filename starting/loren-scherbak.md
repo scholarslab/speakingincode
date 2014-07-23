@@ -11,7 +11,7 @@ ultimately be used to illuminate all that we know about the materials we hold.
 I feel that my artistic insights and analytical talents are revealed when I
 participate in the creation of truly transformational online experiences.
 
-## How did I start? Why did I not quit?
+**How did I start? Why did I not quit?**
 
 I came to the work that I do out of passionate desires to dream, design, build,
 and analyze tools that contribute to my search for knowledge. I became a

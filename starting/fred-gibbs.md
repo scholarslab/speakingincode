@@ -3,7 +3,7 @@ layout: post
 title: Fred Gibbs
 ---
 
-## How Did I Not Quit?
+**How Did I Not Quit?**
 
 Eventually I learned to use to-do lists properly, having figured out that I was
 much more productive and much less anxious when I used item-level tasks like
