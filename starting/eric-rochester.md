@@ -71,7 +71,7 @@ the text transparent, don't ask. Just try it and see.
 
 So.
 
-Work. Work. And play.
+Work. Work. Work. And play.
 
 
 [basic]: http://en.wikipedia.org/wiki/BASIC

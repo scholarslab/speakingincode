@@ -3,6 +3,11 @@
 permalink: /:year/:month/:day/:title/
 highlighter:  pygments
 markdown: rdiscount
+rdiscount:
+  extensions:
+    - autolink
+    - footnotes
+    - smart
 exclude: ['readme.md', 'Rakefile', 'config.rb', '.gitignore', '.sass-cache', 'Gemfile', 'Gemfile.lock']
 include: ['.htaccess']
 
