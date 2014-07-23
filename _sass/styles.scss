@@ -425,10 +425,6 @@ header {
   }
 }
 
-div[role=main] {
-  text-align:justify;
-}
-
 section {
   position:relative;
   background: #fff;
@@ -547,6 +543,13 @@ footer[role=contentinfo] {
   @include adjust-font-size-to(24px);
   @include adjust-leading-to(1.5, 24px);
   @include trailer(3,24px);
+}
+
+.contribute {
+    @include adjust-font-size-to(14px);
+    @include adjust-leading-to(0.75, 14px);
+    @include leader(2, 14px);
+    color: #888;
 }
 
 .elsewhere {
