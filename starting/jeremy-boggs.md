@@ -28,7 +28,8 @@ And if you are someone who is helping someone, don't get annoyed, don't
 be patronizing, and don't make people feel like they have to apologize
 to you for asking you a question. This does no one any good.
 
-This XKCD comic pretty well sums up how we all should approach this:
+[This XKCD comic](http://xkcd.com/1053/) pretty well sums up how we all
+should approach this:
 
 ![XKCD - Ten Thousand](http://imgs.xkcd.com/comics/ten_thousand.png)
 
