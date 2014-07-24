@@ -48,23 +48,10 @@ of making weird and beautiful digital things around a book that's important to
 me, and of sharing my enjoyment of that book with other readers, has been a
 steady impetus to learn new ways of scholarly building.
 
-[^1]: Okay, two things I do often say: try building an HTML page! and learn
-  Omeka, because it has an impressively modest amount of code for a CMS.
+[^1]: Okay, two things I do often say: try building an HTML page! and learn Omeka, because it has an impressively modest amount of code for a CMS.
 
-[^2]: If you don't have a dev buddy to help you figure out what you need to
-  learn, you're likely to get a helpful outline from most web dev fora if you
-  post to the right place, ask politely, and provide as detailed of information
-  as possible. [DH Questions & Answers](http://digitalhumanities.org/answers/)
-  is a fantastic place to ask what skills/tools you need to get where you want
-  to go, as is Miriam Posner's ["How Did They Make That?" blog
-  post](http://miriamposner.com/blog/how-did-they-make-that).
+[^2]: If you don't have a dev buddy to help you figure out what you need to learn, you're likely to get a helpful outline from most web dev fora if you post to the right place, ask politely, and provide as detailed of information as possible. [DH Questions & Answers](http://digitalhumanities.org/answers/) is a fantastic place to ask what skills/tools you need to get where you want to go, as is Miriam Posner's ["How Did They Make That?" blog post](http://miriamposner.com/blog/how-did-they-make-that).
 
 
-[^3]: A digression: Make a basic HTML page at least once, if you've never
-  done it. The enfranchisement of typing some stuff and seeing it become a Real
-  Webpage--that ubiquitous object that, until now, was something other people
-  made--can be really simple under the hood, and a gateway into more advanced
-  web work. One of my students told me that she screamed in triumph so loudly
-  when she got her HTML page assignment to work that her sister ran in from the
-  other room. Make a basic webpage from scratch, at least once.
+[^3]: A digression: Make a basic HTML page at least once, if you've never done it. The enfranchisement of typing some stuff and seeing it become a Real Webpage--that ubiquitous object that, until now, was something other people made--can be really simple under the hood, and a gateway into more advanced web work. One of my students told me that she screamed in triumph so loudly when she got her HTML page assignment to work that her sister ran in from the other room. Make a basic webpage from scratch, at least once.
 
