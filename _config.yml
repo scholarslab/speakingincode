@@ -13,3 +13,4 @@ include: ['.htaccess']
 
 title: Speaking in Code
 domain: http://localhost
+baseurl: "/"
